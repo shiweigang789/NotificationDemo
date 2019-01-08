@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:text="标准视图(Normal view)"
+                android:onClick="showOne"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"/>
+            <Button
+                android:text="取消标准视图(Normal view)"
+                android:onClick="cancelOne"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"/>
+
+            <Button
+                android:text="大视图（Big View）"
+                android:onClick="showTwo"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"/>
+            <Button
+                android:text="取消大视图（Big View）"
+                android:onClick="cancelTwo"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"/>
+
+            <Button
+                android:text="Progress"
+                android:onClick="showThree"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"/>
+
+            <Button
+                android:text="Custome"
+                android:onClick="showFour"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"/>
+
+            <Button
+                android:text="SimplestNotificationActivity"
+                android:onClick="SimplestNotificationActivity"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"/>
+
+            <Button
+                android:text="NotificationEffectActivity"
+                android:onClick="NotificationEffectActivity"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"/>
+
+            <Button
+                android:text="SimpleNotificationActivity"
+                android:onClick="SimpleNotificationActivity"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"/>
+
+            <Button
+                android:text="NotificationStyleActivity"
+                android:onClick="NotificationStyleActivity"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"/>
+
+            <Button
+                android:text="TaskStackBuilderActivity"
+                android:onClick="TaskStackBuilderActivity"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"/>
+
+            <Button
+                android:text="NotificationListenerServiceActivity"
+                android:onClick="NotificationListenerServiceActivity"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NotificationDemo</string>
+    <string name="set_notification_access">设置Notification access(%s)</string>
+</resources>
